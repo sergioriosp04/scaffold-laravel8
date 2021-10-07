@@ -1,9 +1,9 @@
-import Test from './components/test/Test'
+import Register from "./components/user/Register";
 
 export const routes = [
     {
-        name: 'test',
-        path: '/test',
-        component: Test,
-    }
+        name: 'userRegister',
+        path: '/register',
+        component: Register,
+    },
 ]
